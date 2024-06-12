@@ -5,9 +5,9 @@ Undergraduate Coding Club - Kelley Lab 2024
 
 [//]: # (BEGIN automated TOC section, any edits will be overwritten on next source refresh)
 
-* [Introduction](#introduction)
+* [Topic List](#topic-list)
 
 
-## Introduction
+## Topic List
 
 Manta
