@@ -1,5 +1,13 @@
-# Undergraduate Coding Club - Kelley Lab 2024
+Undergraduate Coding Club - Kelley Lab 2024
+================
 
-*[Useful One Liners](#Useful One Liners)
+## Table of Contents
 
-## Useful One Liners
+[//]: # (BEGIN automated TOC section, any edits will be overwritten on next source refresh)
+
+* [Introduction](#introduction)
+
+
+## Introduction
+
+Manta
