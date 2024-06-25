@@ -48,7 +48,7 @@ This week we will be going through common file types you may come across during 
 - "0/0"-both reference alleles, "0/1" 1 reference allele, 1 SNP 
 - Easy to filter (may filter them to exclude missing data)
 
-![vcf file](/images/Screenshot 2024-06-25 at 13.09.30.png)
+![vcffile](/images/Screenshot 2024-06-25 at 13.09.30.png)
 
 
 ## .GFF/.GTF
