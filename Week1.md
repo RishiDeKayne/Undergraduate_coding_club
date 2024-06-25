@@ -5,50 +5,48 @@ Week 1 - File types
 
 This week we will be going through common file types you may come across during your coding projects. We will examine the structure of these files, as well as their uses, benefits, and limitations.
 
-## .txt
--Unformatted file
--Problems arise when certain tools need input to be structured in a certain way
--Differences in txt files based on your operating system
--windows to UNIX (dos2unix / unix2dos ) text file converter, converts text files with dos or mac line breaks to unix line breaks and vice versa, does take double quotation marks and turns them into 2 single quotations which can be a really important issue when using dos2unix to create a linux .txt from a windows generated .txt file 
+## `.txt`
+- Unformatted file  
+- Problems arise when certain tools need input to be structured in a certain way  
+- Differences in txt files based on your operating system  
+- windows to UNIX (dos2unix / unix2dos ) text file converter, converts text files with dos or mac line breaks to unix line breaks and vice versa, does take double quotation marks and turns them into 2 single quotations which can be a really important issue when using dos2unix to create a linux `.txt` from a windows generated `.txt` file   
 
-## .sh
-Means it is a shell script 
-Job script made to be submitted 
-Look up (for example) google coding best practices - makes it easier for collaborative work
+## `.sh`
+- Means it is a shell script  
+- Job script made to be submitted  
+- Look up (for example) google coding best practices - makes it easier for collaborative work  e.g. [this google style guide for bash](https://google.github.io/styleguide/shellguide.html)
 
-## .fastq
-Files we get from the sequencing companies that include DNA sequences and the quality score that associates with them
-Sequencing is really accurate in the middle of the read but the ends are more prone to issues so the fastq files help you decide if the quality is good
-Informative output of the distribution of the quality score
-Helps you figure out what could have caused issues; quality score is really consistent, and then in a certain portion of the read, it drops dramatically → could be for multiple reasons, ex is someone bumped the sequencing machine
-They come in specific format
+## `.fastq`
+- Files we get from the sequencing companies that include DNA sequences and the quality score that associates with them  
+- Sequencing is really accurate in the middle of the read but the ends are more prone to issues so the fastq files help you decide if the quality is good  
+- Informative output of the distribution of the quality score  
+- Helps you figure out what could have caused issues; quality score is really consistent, and then in a certain portion of the read, it drops dramatically → could be for multiple reasons, ex is someone bumped the sequencing machine  
+- They come in specific format  
 
-## .fasta/.fna
-All fasta files start with a greater than symbol ‘>’
-Header which is the name of the read (single line description) and then followed by the read itself (sequence data)
-Typically the file format used for genome assembly 
-Reference used to map files against
-Text-based format represent nucleotide sequences/peptide sequences in single-letter codes
+## `.fasta`/`.fna`
+- All fasta header lines start with a greater than symbol `>`   
+- Header which is the name of the read (single line description) and then followed by the read itself (sequence data)  
+- Typically the file format used for genome assembly which is the reference sequence used to map files against  
+- Text-based format represent nucleotide sequences/peptide sequences in single-letter codes  
 
-## .sam/.bam
-SequenceAlignmentMap/BinaryAlignmentMap
-Sam is an uncompressed version of the bam file
-Represents aligned sequences
-Has a header which describes the entire file and then followed by the alignment which contains all the read information
-Can compress it to different extents → takes computer a while to compress & decompress
+## `.sam`/`.bam`
+- SequenceAlignmentMap/BinaryAlignmentMap 
+- `.sam` files are uncompressed version of `.bam` files  
+- Represents aligned sequences  
+- Has a header which describes the entire file and then followed by the alignment which contains all the read information  
+- Can compress it to different extents → takes computer a while to compress & decompress  
 
-## .vcf
-Variant Call format
-Probably the most useful file
-They are the files you deal with once you call snips
-Row —> different snips
-Columns –> individual
-“./.” → can’t call a variant from an individual 
-Other variants we call are going to be 0 and 1 
-In really complex data you might even see 0, 1, and 2
-Each number represents a different variant/allele
-"0/0"-both reference alleles, "0/1" 1 reference allele, 1 SNP
-Easiest to filter (may filter them to exclude missing data)
+## `.vcf`
+- Variant Call format  
+- They are the files you deal with once you call SNPs  
+- Row —> different SNPs  
+- Columns –> individual   
+- “./.” → missing variant data for an individual  
+- Other variants we call are going to be 0 and 1  
+- In really complex data you might even see 0, 1, and 2 
+- Each number represents a different variant/allele 
+- "0/0"-both reference alleles, "0/1" 1 reference allele, 1 SNP 
+- Easy to filter (may filter them to exclude missing data) 
 
 ## .GFF/.GTF
 Nightmare format
