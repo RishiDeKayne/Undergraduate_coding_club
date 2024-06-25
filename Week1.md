@@ -16,7 +16,7 @@ This week we will be going through common file types you may come across during 
 - Job script made to be submitted  
 - Look up (for example) google coding best practices - makes it easier for collaborative work  e.g. [this google style guide for bash](https://google.github.io/styleguide/shellguide.html)
 
-![shfile](images/sh.png)  
+![shfile](images/sh2.png)  
 
 ## `.fastq`
 - Files we get from the sequencing companies that include DNA sequences and the quality score that associates with them  
@@ -24,6 +24,8 @@ This week we will be going through common file types you may come across during 
 - Informative output of the distribution of the quality score  
 - Helps you figure out what could have caused issues; quality score is really consistent, and then in a certain portion of the read, it drops dramatically → could be for multiple reasons, ex is someone bumped the sequencing machine  
 - They come in specific format  
+
+![fastqfile](images/fastq.png)  
 
 ## `.fasta`/`.fna`
 - All fasta header lines start with a greater than symbol `>`   
@@ -55,11 +57,13 @@ This week we will be going through common file types you may come across during 
 ![vcffile](images/vcf.png)  
 
 ## .GFF/.GTF
-Nightmare format
-Used to represent the annotations within genomes
-Have a nested structure which makes them really complicated
-Can be broken very easily when you try to manipulate them
-Can match a segment of it with SNPs to understand whats going on in there
+- Nightmare format  
+- Used to represent the annotations within genomes  
+- Have a nested structure which makes them really complicated  
+- Can be broken very easily when you try to manipulate them  
+- Can match a segment of it with SNPs to understand whats going on in there  
+
+![gfffile](images/gff.png)  
 
 ## Counts matrices
 "count matrices" or "expression matrices" contain a measure of gene expression for every gene in every sample/individual
