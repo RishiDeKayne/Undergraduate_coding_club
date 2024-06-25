@@ -1,0 +1,12 @@
+Individual_Number,Spawning_Depth,Standard_Length,Sex,Colour
+BL_100,4,35,M,Blue
+BL_101,4,32,F,Blue
+BL_102,4,36,M,Blue
+BL_400,4,34,M,Blue
+BL_432,4,41,F,Blue
+NR_700,4,18,F,Red
+NR_703,4,16,F,Red
+NR_704,4,19,F,Red
+NR_856,4,16,F,Red
+NR_870,4,17,M,Red
+NR_871,4,18,F,Red
