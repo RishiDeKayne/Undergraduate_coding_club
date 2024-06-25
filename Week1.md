@@ -16,6 +16,8 @@ This week we will be going through common file types you may come across during 
 - Job script made to be submitted  
 - Look up (for example) google coding best practices - makes it easier for collaborative work  e.g. [this google style guide for bash](https://google.github.io/styleguide/shellguide.html)
 
+![shfile](images/sh.png)  
+
 ## `.fastq`
 - Files we get from the sequencing companies that include DNA sequences and the quality score that associates with them  
 - Sequencing is really accurate in the middle of the read but the ends are more prone to issues so the fastq files help you decide if the quality is good  
@@ -27,7 +29,9 @@ This week we will be going through common file types you may come across during 
 - All fasta header lines start with a greater than symbol `>`   
 - Header which is the name of the read (single line description) and then followed by the read itself (sequence data)  
 - Typically the file format used for genome assembly which is the reference sequence used to map files against  
-- Text-based format represent nucleotide sequences/peptide sequences in single-letter codes  
+- Text-based format represent nucleotide sequences/peptide sequences in single-letter codes
+
+![fastafile](images/fasta.png)  
 
 ## `.sam`/`.bam`
 - SequenceAlignmentMap/BinaryAlignmentMap 
@@ -49,7 +53,6 @@ This week we will be going through common file types you may come across during 
 - Easy to filter (may filter them to exclude missing data)
 
 ![vcffile](images/vcf.png)  
-
 
 ## .GFF/.GTF
 Nightmare format
