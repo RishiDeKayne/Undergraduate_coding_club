@@ -5,7 +5,7 @@ Week 2 - Hummingbird tips
 
 This week we will be discussing individual workflows for scientific projects. Additionally, we will cover some things to consider when working on the Hummingbird cluster.
 
-## Before running a job
+## Before running jobs
 - *Slurm Basics*: Familiarize yourself with Slurm concepts such as partitions (queues), jobs, job scripts, nodes, and resources (CPU, memory, GPUs).
 - *Read Documentation*: This applies to both Hummingbird itself ([HERE](https://hummingbird.ucsc.edu/) you can find info about Hummingbird) and the queue system Slurm ([HERE](https://www.carc.usc.edu/user-information/user-guides/hpc-basics/slurm-cheatsheet) you can find a cheat-sheet for Slurm) which has comprehensive documentation available online.
 - *Project File and Folder Organization*:
@@ -30,10 +30,10 @@ This week we will be discussing individual workflows for scientific projects. Ad
 - *Monitor Resource Usage*: Use `sacct` or `sstat` to monitor resource usage of your jobs after they have finished. This helps optimize resource requests for future jobs.
 
 ## After running jobs
-Clean Up: Remove temporary files and directories after job completion to avoid cluttering the file system and using unnecessary disk space.
-Learn from Others: Collaborate with eachother and seek advice from more experienced Hb users. 
-Improving coding skills
-Learning new/more efficient tools/ways of doing tasks
-Learning new software/programs
-Stay Updated with Hb: Keep yourself updated with cluster announcements, maintenance schedules, and any changes in cluster policies or procedures.
-Back up: Stay on top of knowing which files are ‘key’ files that need backing up
+- *Clean Up*: Remove temporary files and directories after job completion to avoid cluttering the file system and using unnecessary disk space.
+- Learn from Others: Collaborate with eachother and seek advice from more experienced Hb users. 
+  - Improving coding skills
+  - Learning new/more efficient tools/ways of doing tasks
+  - Learning new software/programs
+- *Stay Updated with Hb*: Keep yourself updated with cluster announcements, maintenance schedules, and any changes in cluster policies or procedures.
+- *Back up*: Stay on top of knowing which files are ‘key’ files that need backing up
