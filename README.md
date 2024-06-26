@@ -28,6 +28,3 @@ Undergraduate Coding Club - Kelley Lab 2024
 
 ## One Liners
 
-```
-test
-```
