@@ -7,7 +7,7 @@ This week we will be discussing individual workflows for scientific projects. Ad
 
 ## Before running a job
 - *Slurm Basics*: Familiarize yourself with Slurm concepts such as partitions (queues), jobs, job scripts, nodes, and resources (CPU, memory, GPUs).
-- *Read Documentation*: This applies to both Hummingbird itself and the queue system Slurm which has comprehensive documentation available online.
+- *Read Documentation*: This applies to both Hummingbird itself ([HERE](https://hummingbird.ucsc.edu/)) you can find info about Hummingbird) and the queue system Slurm ([HERE](https://www.carc.usc.edu/user-information/user-guides/hpc-basics/slurm-cheatsheet) you can find a cheat-sheet for Slurm) which has comprehensive documentation available online.
 - *Project File and Folder Organization*:
   - E.g. Data, Analysis, Output
     - **Data** should have raw data and should remain untouched/unaltered (could contain `.fastq`, `.bam`, `.vcf` files e.g.)
