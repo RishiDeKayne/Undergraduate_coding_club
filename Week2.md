@@ -10,11 +10,11 @@ This week we will be discussing individual workflows for scientific projects. Ad
 - *Read Documentation*: This applies to both Hummingbird itself and the queue system Slurm which has comprehensive documentation available online.
 - *Project File and Folder Organization*:
   - E.g. Data, Analysis, Output
-    - **Data** should have raw data and should remain untouched/unaltered (could contain fastq, bam, vcf files e.g.)
+    - **Data** should have raw data and should remain untouched/unaltered (could contain `.fastq`, `.bam`, `.vcf` files e.g.)
     - **Analysis** is where the bulk of your work should be carried out taking files from Data and doing something to them
     - **Output** is where we can send/copy useful output files, figures, summary stats which can then be shared and manipulated without the risk of altering the raw data or analysis
-  - Within analysis you can then have folders for each part e.g. 01_QC, 02_Mapping, 03_Genotyping.
-  - Within those folders you can then have different folders for different parameter combinations e.g. FST_50kb_windows, FST_100kb_windows
+  - Within analysis you can then have folders for each part e.g. `01_QC`, `02_Mapping`, `03_Genotyping`.
+  - Within those folders you can then have different folders for different parameter combinations e.g. `FST_50kb_windows`, `FST_100kb_windows`
 
 ## While running jobs
 Job Submission: Always submit jobs using sbatch rather than running them interactively (srun), especially for longer tasks. This ensures better resource management and job tracking.
