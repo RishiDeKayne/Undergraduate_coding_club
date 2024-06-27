@@ -47,6 +47,18 @@ Redirect output to a new file
 cut -f 1 sample_info_tabs.txt > individuals.txt
 ```
 
+Now we can make a version of this file for individuals with a spawning depth < 20m
+We use `awk` (which we will cover in more detail next week) to filter based on column 2 (indicated by `$2`) and then return all columns (`{print $0}`)  
+```
+awk '$2 < 20 {print $0}' sample_info_tabs.txt
+```
+
+The pipe symbol allows us to also further manipulate this output.
+For example we can sort this output baed on the value of column 2 (using `sort -k 2`) from deepest to shallowest.
+```
+awk '$2 < 20 {print $0}' sample_info_tabs.txt | sort -k 2
+```
+
 ## Variables
 Variables are used to store values for later use in scripts. They can hold user input, filenames, or any other data needed in your script.  
 
