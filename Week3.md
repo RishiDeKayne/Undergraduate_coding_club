@@ -49,6 +49,7 @@ cut -f 1 sample_info_tabs.txt > individuals.txt
 
 Now we can make a version of this file for individuals with a spawning depth < 20m
 We use `awk` (which we will cover in more detail next week) to filter based on column 2 (indicated by `$2`) and then return all columns (`{print $0}`)  
+If we only wanted specific columns we can specify those within the print statement with `$1` for column 1 etc.
 ```
 awk '$2 < 20 {print $0}' sample_info_tabs.txt
 ```
@@ -91,9 +92,9 @@ color='Blue'
 grep "$color" sample_info_tabs.txt
 ```
 
-As before we can build on this to get other features like the number of blue fish in our sample set
+As before we can build on this to get other features. This time we will look for the number of red fish in the sample set
 ```
-color='Blue'
+color='Red'
 grep "$color" sample_info_tabs.txt | wc -l
 ```
 
@@ -107,7 +108,11 @@ input_file="sample_info_tabs.txt"
 output_file_blue="Blue_SL.txt"
 output_file_red="Red_SL.txt"
 
-grep "$color1" $input_file | awk {print $1 $3}' > $output_file_blue && grep "$color2" $input_file | awk {print $1 $3}' > $output_file_red
+grep "$color1" $input_file | awk '{print $1,$3}' > $output_file_blue && grep "$color2" $input_file | awk '{print $1,$3}' > $output_file_red
+
+#look in each file with cat
+cat $output_file_blue
+cat $output_file_red
 
 ```
 
@@ -115,14 +120,17 @@ grep "$color1" $input_file | awk {print $1 $3}' > $output_file_blue && grep "$co
 Control structures allow you to make decisions based on conditions within your script.  
 
 ```
-val="NR_703"
-trait_value=$(grep "$organism" phenotypes.txt | cut -f 2)
+echo $individual
+trait_value=$(grep "$individual" $input_file | cut -f 2)
 
 if [ $trait_value -gt 10 ]; then
-    echo "$organism has a trait value greater than 10."
+    echo "$individual has spawning depth greater than 10."
 elif [ $trait_value -eq 10 ]; then
-    echo "$organism has a trait value equal to 10."
+    echo "$individual has a spawning depth equal to 10."
 else
-    echo "$organism has a trait value less than 10."
+    echo "$individual has a spawning depth less than 10."
 fi
+
+#verify the output
+echo "$individual has a spawning depth of: " && grep "$individual" $input_file | cut -f 2
 ```
