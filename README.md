@@ -35,8 +35,8 @@ Undergraduate Coding Club - Kelley Lab 2024
 
 
 ## Week-By-Week-Notes
-[Week1](https://github.com/RishiDeKayne/Undergraduate_coding_club/blob/main/Week1.md)
-[Week2](https://github.com/RishiDeKayne/Undergraduate_coding_club/blob/main/Week2.md)
-[Week3](https://github.com/RishiDeKayne/Undergraduate_coding_club/blob/main/Week3.md)
+[Week1](https://github.com/RishiDeKayne/Undergraduate_coding_club/blob/main/Week1.md)  
+[Week2](https://github.com/RishiDeKayne/Undergraduate_coding_club/blob/main/Week2.md)  
+[Week3](https://github.com/RishiDeKayne/Undergraduate_coding_club/blob/main/Week3.md)  
 
 
