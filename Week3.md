@@ -97,17 +97,16 @@ color='Blue'
 grep "$color" sample_info_tabs.txt | wc -l
 ```
 
-# Example 1: Assign a variable and use it in a command
-$ organism="Organism3"
-$ grep "$organism" phenotypes.txt
-# Output: Organism3    8         25        9
+We can also use variables to store a specific file name - this is something you might do if you are carrying out an action on a specific file type.
+For example you may decide to carry out some filtering on a `.vcf` file - you want to make a filtering script once and then you can use it for any vcf file by specifying your desired input and output file names as variables in the script. Here we will produce subsetted versions of our `sample_info_tabs.txt` file based on the color of the fish to extract only the color and the standard length.
 
-# Example 2: Use a variable to store a filename and perform operations
-$ input_file="phenotypes.txt"
-$ output_file="processed_phenotypes.txt"
-$ cut -f 1,2 "$input_file" > "$output_file"
-# Creates a new file 'processed_phenotypes.txt' containing Organism names and Trait1 values
+```
+input_file="sample_info_tabs.txt"
+output_file_blue="Blue_SL.txt"
+output_file_red="Red_SL.txt"
 
+cut -f 1,2 "$input_file" > "$output_file_blue" && 
+```
 # Example 3: Store user input in a variable and use it in a script
 $ echo "Enter the trait value threshold:"
 $ read threshold
