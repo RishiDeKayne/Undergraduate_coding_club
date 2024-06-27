@@ -9,10 +9,10 @@ This week we will be discussing individual workflows for scientific projects. Ad
 - *Slurm Basics*: Familiarize yourself with Slurm concepts such as partitions (queues), jobs, job scripts, nodes, and resources (CPU, memory, GPUs).
 - *Read Documentation*: This applies to both Hummingbird itself ([HERE](https://hummingbird.ucsc.edu/) you can find info about Hummingbird) and the queue system Slurm ([HERE](https://www.carc.usc.edu/user-information/user-guides/hpc-basics/slurm-cheatsheet) you can find a cheat-sheet for Slurm) which has comprehensive documentation available online.
 - *Project File and Folder Organization*:
-  - E.g. data, analysis, output
-    - **data** should have raw data and should remain untouched/unaltered (could contain `.fastq`, `.bam`, `.vcf` files e.g.)
-    - **analysis** is where the bulk of your work should be carried out taking files from Data and doing something to them
-    - **output** is where we can send/copy useful output files, figures, summary stats which can then be shared and manipulated without the risk of altering the raw data or analysis
+  - E.g. `data`, `analysis`, `output`
+    - `data` should have raw data and should remain untouched/unaltered (could contain `.fastq`, `.bam`, `.vcf` files e.g.)
+    - `analysis` is where the bulk of your work should be carried out taking files from Data and doing something to them
+    - `output` is where we can send/copy useful output files, figures, summary stats which can then be shared and manipulated without the risk of altering the raw data or analysis
   - Within analysis you can then have folders for each part e.g. `01_QC`, `02_Mapping`, `03_Genotyping`.
   - Within those folders you can then have different folders for different parameter combinations e.g. `FST_50kb_windows`, `FST_100kb_windows`
 
