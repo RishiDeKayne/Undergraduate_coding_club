@@ -8,6 +8,8 @@ These tools can all be used in conjunction one another so I have structured this
 
 ## Data Files
 
+First we are going to make an example phenotype file we will use during this workshop. 
+
 ```
 echo 'Individual_Number Spawning_Depth Standard_Length Sex Colour' > sample_info.txt
 echo 'BL_100 4 35 M Blue' >> sample_info.txt
@@ -26,8 +28,19 @@ Now convert spaces to tabs so that we can use awk easily (you can specify the de
 ```
 sed 's/ /\t/g' sample_info.txt > sample_info_tabs.txt
 ```
+
 ## Piping (| and >)
 
+```
+# Count number of organisms
+wc -l sample_info_tabs.txt
+
+# Pipe output to cut to select only the organism names
+cut -f 1 sample_info_tabs.txt
+
+# Redirect output to a new file
+cut -f 1 sample_info_tabs.txt > individuals.txt
+```
 
 ## Variables
 
