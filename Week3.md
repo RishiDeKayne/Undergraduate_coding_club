@@ -149,11 +149,16 @@ fi
 - The `else` block (if it is present) will execute if none of the preceding conditions (`if` or `elif`) were true.
 - As before `fi` ends the entire conditional structure.
 
-Here is an example using a few of the things we have learned today:
+Here is an example using a few of the things we have learned today. We will use the `$individual` and `$input_file` variables from before:
 ```
+#First check the contents of the variables
 echo $individual
+echo $input_file
+
+#next extract the trait value spawning depth for that individual from the file
 trait_value=$(grep "$individual" $input_file | cut -f 2)
 
+#now run a conditional statement to tell us if the value falls within a certain range, >10, ==10, or <10
 if [ $trait_value -gt 10 ]; then
     echo "$individual has spawning depth greater than 10."
 elif [ $trait_value -eq 10 ]; then
@@ -162,6 +167,6 @@ else
     echo "$individual has a spawning depth less than 10."
 fi
 
-#verify the output
+#at the end of this conditional test we can independently verify the output to make sure it worked:
 echo "$individual has a spawning depth of: " && grep "$individual" $input_file | cut -f 2
 ```
