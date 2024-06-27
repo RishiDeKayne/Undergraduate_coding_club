@@ -1,14 +1,6 @@
 Undergraduate Coding Club - Kelley Lab 2024
 ================
 
-## Table of Contents
-
-[//]: # (BEGIN automated TOC section, any edits will be overwritten on next source refresh)
-
-* [Topic List](#topic-list)
-* [Week-By-Week-Notes](#week-notes)
-
-
 ## Topic List
 
 *Week1 - discussion* [Week1 Notes](https://github.com/RishiDeKayne/Undergraduate_coding_club/blob/main/Week1.md)  
