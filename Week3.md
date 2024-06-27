@@ -30,6 +30,7 @@ sed 's/ /\t/g' sample_info.txt > sample_info_tabs.txt
 ```
 
 ## Piping (| and >)
+Piping (|) allows you to redirect the output of one command as input to another command, while redirection (>) is used to redirect output to a file.  
 
 Count number of organisms
 ```
@@ -47,10 +48,32 @@ cut -f 1 sample_info_tabs.txt > individuals.txt
 ```
 
 ## Variables
+Variables are used to store values for later use in scripts. They can hold user input, filenames, or any other data needed in your script.  
 
+Assign a variable
 ```
-test
+organism="Organism1"
+```
+
+Use the variable in a command
+```
+grep "$organism" phenotypes.txt
 ```
 
 ## Control Structures and Conditional Statements (if, elif, else, fi)
+Control structures allow you to make decisions based on conditions within your script.  
 
+```
+#!/bin/bash
+
+organism="Organism3"
+trait_value=$(grep "$organism" phenotypes.txt | cut -f 2)
+
+if [ $trait_value -gt 10 ]; then
+    echo "$organism has a trait value greater than 10."
+elif [ $trait_value -eq 10 ]; then
+    echo "$organism has a trait value equal to 10."
+else
+    echo "$organism has a trait value less than 10."
+fi
+```
