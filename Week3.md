@@ -117,8 +117,39 @@ cat $output_file_red
 ```
 
 ## Control Structures and Conditional Statements (if, elif, else, fi)
-Control structures allow you to make decisions based on conditions within your script.  
 
+In bash scripting, `if`, `elif`, `else`, and `fi` are control structures used for conditional execution of commands. They allow you to control the flow of your script based on conditions, enabling you to make decisions and execute different commands or actions accordingly.  
+
+An `if` statement starts a block of code that will be executed only if a specified condition is true.
+
+```
+if [ condition ]; then
+    # Commands to execute if condition is true
+fi
+```
+
+- `[ condition ]` is a conditional expression enclosed within square brackets. 
+- We can specify a bunch of different conditions including (-eq, -ne, -lt, -gt, -le, -ge), file checks (-f, -d, -r, -w, -x), and logical operations (&&, ||). In your own time look up what some of these mean and think about how you could use them in a script
+- `then` marks the beginning of the block of code to execute **if** the condition is true.
+- `fi` (reverse of `if`) marks the end of the if block.
+
+An `elif` statement allows you to check additional conditions if the preceding if condition (or any previous elif condition) was false.
+
+```
+if [ condition1 ]; then
+    # Commands to execute if condition1 is true
+elif [ condition2 ]; then
+    # Commands to execute if condition2 is true
+else
+    # Commands to execute if all conditions are false
+fi
+```
+
+- You can have multiple `elif` blocks to check multiple conditions sequentially.
+- The `else` block (if it is present) will execute if none of the preceding conditions (`if` or `elif`) were true.
+- As before `fi` ends the entire conditional structure.
+
+Here is an example using a few of the things we have learned today:
 ```
 echo $individual
 trait_value=$(grep "$individual" $input_file | cut -f 2)
