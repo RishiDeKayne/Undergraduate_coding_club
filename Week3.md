@@ -101,24 +101,21 @@ We can also use variables to store a specific file name - this is something you 
 For example you may decide to carry out some filtering on a `.vcf` file - you want to make a filtering script once and then you can use it for any vcf file by specifying your desired input and output file names as variables in the script. Here we will produce subsetted versions of our `sample_info_tabs.txt` file based on the color of the fish to extract only the color and the standard length.
 
 ```
+color1='Blue'
+color2='Red'
 input_file="sample_info_tabs.txt"
 output_file_blue="Blue_SL.txt"
 output_file_red="Red_SL.txt"
 
-cut -f 1,2 "$input_file" > "$output_file_blue" && 
+grep "$color1" $input_file | awk {print $1 $3}' > $output_file_blue && grep "$color2" $input_file | awk {print $1 $3}' > $output_file_red
+
 ```
-# Example 3: Store user input in a variable and use it in a script
-$ echo "Enter the trait value threshold:"
-$ read threshold
-$ awk -v thresh="$threshold" '$2 > thresh {print $1}' phenotypes.txt
 
 ## Control Structures and Conditional Statements (if, elif, else, fi)
 Control structures allow you to make decisions based on conditions within your script.  
 
 ```
-#!/bin/bash
-
-organism="Organism3"
+val="NR_703"
 trait_value=$(grep "$organism" phenotypes.txt | cut -f 2)
 
 if [ $trait_value -gt 10 ]; then
