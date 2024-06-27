@@ -57,19 +57,19 @@ awk '$2 < 20 {print $0}' sample_info_tabs.txt
 The pipe symbol allows us to also further manipulate this output.
 For example we can sort this output based on the value of column 2 (using `sort -k 2`) from deepest to shallowest.
 ```
-awk '$2 < 20 {print $0}' sample_info_tabs.txt | sort -k 2
+awk '$2 < 20 {print $0}' sample_info_tabs.txt | sort -k2 -n
 ```
 
 We can keep adding commands using pipe. 
 Firstly we might want to identify unique values in our sorted set. We can do this with `uniq`.
 ```
-awk '$2 < 20 {print $2}' sample_info_tabs.txt | sort | uniq
+awk '$2 < 20 {print $2}' sample_info_tabs.txt | sort -n | uniq
 ```
 
 You can see this way we have only three values, 10, 5, and 4. But what if we were looking at unique gene names and had 10,000+?
 We can use `wc -l` to count the number of lines in this output without even having to make an intermediate file. 
 ```
-awk '$2 < 20 {print $2}' sample_info_tabs.txt | sort | uniq | wc -l
+awk '$2 < 20 {print $2}' sample_info_tabs.txt | sort -n | uniq | wc -l
 ```
 
 ## Variables
