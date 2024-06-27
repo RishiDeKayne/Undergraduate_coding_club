@@ -170,3 +170,18 @@ fi
 #at the end of this conditional test we can independently verify the output to make sure it worked:
 echo "$individual has a spawning depth of: " && grep "$individual" $input_file | cut -f 2
 ```
+
+## Further reading/watching
+Cheat sheets
+- A very comprehensive bash cheat sheet can be found [HERE](https://devhints.io/bash)
+- Some more grep tips can be found [HERE](https://ryanstutorials.net/linuxtutorial/cheatsheetgrep.php)
+- Some AWK tips can be found [HERE](https://www.shortcutfoo.com/app/dojos/awk/cheatsheet) and [HERE](https://bl831.als.lbl.gov/~gmeigs/scripting_help/awk_cheat_sheet.pdf)
+
+If you follow along with this tutorial just remember the cluster-specific bits are for a different cluster not hummingbird:
+- Other bash tutorial: [Bash Refresher](https://github.com/RishiDeKayne/BashIntro)
+- Lecture on YouTube: [Introduction to Genomics and Sequencing](https://www.youtube.com/watch?v=XOilMYsUin8&list=PL-_gg7O4EMWbFLTdqr501tjNJ1xq43BqA&index=1)
+- Bash practicals part 1: 
+  - Lecture on YouTube: [bash / unix / bioinformatics tutorial for beginners part 1](https://www.youtube.com/watch?v=i-TaAjuxq8Y&list=PL-_gg7O4EMWbFLTdqr501tjNJ1xq43BqA&index=2)
+- Bash practicals part 2:
+  - Lecture on YouTube: [bash / unix / bioinformatics tutorial for beginners part 2](https://www.youtube.com/watch?v=tV8gmBQr8fU&list=PL-_gg7O4EMWbFLTdqr501tjNJ1xq43BqA&index=3)
+  
