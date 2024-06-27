@@ -11,8 +11,8 @@ These tools can all be used in conjunction one another so I have structured this
 First we are going to make an example phenotype file we will use during this workshop. 
 
 ```
-echo 'Individual_Number Spawning_Depth Standard_Length Sex Colour' > sample_info.txt
-echo 'BL_100 4 35 M Blue' >> sample_info.txt
+#Individual_Number Spawning_Depth Standard_Length Sex Colour
+echo 'BL_100 4 35 M Blue' > sample_info.txt
 echo 'BL_101 5 32 F Blue' >> sample_info.txt
 echo 'BL_102 4 36 M Blue' >> sample_info.txt
 echo 'BL_400 4 34 M Blue' >> sample_info.txt
@@ -54,9 +54,21 @@ awk '$2 < 20 {print $0}' sample_info_tabs.txt
 ```
 
 The pipe symbol allows us to also further manipulate this output.
-For example we can sort this output baed on the value of column 2 (using `sort -k 2`) from deepest to shallowest.
+For example we can sort this output based on the value of column 2 (using `sort -k 2`) from deepest to shallowest.
 ```
 awk '$2 < 20 {print $0}' sample_info_tabs.txt | sort -k 2
+```
+
+We can keep adding commands using pipe. 
+Firstly we might want to identify unique values in our sorted set. We can do this with `uniq`.
+```
+awk '$2 < 20 {print $2}' sample_info_tabs.txt | sort | uniq
+```
+
+You can see this way we have only three values, 10, 5, and 4. But what if we were looking at unique gene names and had 10,000+?
+We can use `wc -l` to count the number of lines in this output without even having to make an intermediate file. 
+```
+awk '$2 < 20 {print $2}' sample_info_tabs.txt | sort | uniq | wc -l
 ```
 
 ## Variables
@@ -64,13 +76,42 @@ Variables are used to store values for later use in scripts. They can hold user 
 
 Assign a variable
 ```
-organism="Organism1"
+individual="NR_703"
 ```
 
-Use the variable in a command
+Use the variable in a command. Here we use `grep` which allows us to use regular expressions to extract information from files.
+In it's simplest form below grep is searching for the contents of our variable within the `.txt` file provided.
 ```
-grep "$organism" phenotypes.txt
+grep "$individual" sample_info_tabs.txt
 ```
+
+We can also do this for a whole group. This time we want to extract all blue fish
+```
+color='Blue'
+grep "$color" sample_info_tabs.txt
+```
+
+As before we can build on this to get other features like the number of blue fish in our sample set
+```
+color='Blue'
+grep "$color" sample_info_tabs.txt | wc -l
+```
+
+# Example 1: Assign a variable and use it in a command
+$ organism="Organism3"
+$ grep "$organism" phenotypes.txt
+# Output: Organism3    8         25        9
+
+# Example 2: Use a variable to store a filename and perform operations
+$ input_file="phenotypes.txt"
+$ output_file="processed_phenotypes.txt"
+$ cut -f 1,2 "$input_file" > "$output_file"
+# Creates a new file 'processed_phenotypes.txt' containing Organism names and Trait1 values
+
+# Example 3: Store user input in a variable and use it in a script
+$ echo "Enter the trait value threshold:"
+$ read threshold
+$ awk -v thresh="$threshold" '$2 > thresh {print $1}' phenotypes.txt
 
 ## Control Structures and Conditional Statements (if, elif, else, fi)
 Control structures allow you to make decisions based on conditions within your script.  
