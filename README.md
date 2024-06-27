@@ -4,7 +4,7 @@ Undergraduate Coding Club - Kelley Lab 2024
 ## Topic List
 
 *Week1 - discussion* [Week1 Notes](https://github.com/RishiDeKayne/Undergraduate_coding_club/blob/main/Week1.md)  
-- file type descriptions and use cases
+- File type descriptions and use cases
   
 *Week2 - discussion* [Week2 Notes](https://github.com/RishiDeKayne/Undergraduate_coding_club/blob/main/Week2.md)
 - General workflow management
