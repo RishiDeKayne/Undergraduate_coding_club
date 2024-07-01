@@ -95,7 +95,7 @@ awk '{$5 = ($5 == "Blue" ? "Green" : $5)} 1' sample_info.txt
 
 sed, which stands for "stream editor", is a programming language that we mostly use to processing (also known as parsing) and transforming text.
 
-Sed is perhaps best known for, and most used for finding and replacing motifs in files. For example, replacing `M` in our phenotype file with `Male`. The gap between `'s/` and the second `/` is for our find phrase and the gap between the second `/` and `/g'` specifies the replace phrase. Be aware that special characters must be escaped (e.g. if we wanted to replace `/` in our file of interest, such as a file path we would add a `\` before the slash to 'escape' it). The output of this will just be posted to standard output meaning it is printed on our screen. We can also use `>` to direct the output to a new file.
+Sed is perhaps best known for, and most used for finding and replacing motifs in files. For example, replacing `M` in our phenotype file with `Male`. The gap between `'s/` and the second `/` is for our find phrase and the gap between the second `/` and `/g'` specifies the replace phrase - you can think of it as `'s/FIND/REPLACE/g'`. Be aware that special characters must be escaped (e.g. if we wanted to replace `/` in our file of interest, such as a file path we would add a `\` before the slash to 'escape' it). The output of this will just be posted to standard output meaning it is printed on our screen. We can also use `>` to direct the output to a new file.
 ```
 sed 's/M/Male/g' sample_info.txt
 ```
