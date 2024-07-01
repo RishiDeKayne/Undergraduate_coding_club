@@ -17,7 +17,7 @@ Undergraduate Coding Club - Kelley Lab 2024
 - How to use if, elif, else and fi
   
 *Week4 - workshop* [Week4 Notes](https://github.com/RishiDeKayne/Undergraduate_coding_club/blob/main/Week4.md)
-- Other useful languages for one-liners - sed/awk
+- Other useful languages for one-liners - sed/awk/grep
 
 *Week5*
 - Conda environments
