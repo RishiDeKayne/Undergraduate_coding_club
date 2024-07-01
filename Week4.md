@@ -91,6 +91,42 @@ Finally, we can do a kind of find and replace, simlar to that we will cover with
 awk '{$5 = ($5 == "Blue" ? "Green" : $5)} 1' sample_info.txt
 ```
 
+## Part 2: sed
+
+sed, which stands for "stream editor", is a programming language that we mostly use to processing (also known as parsing) and transforming text.
+
+Sed is perhaps best known for, and most used for finding and replacing motifs in files. For example, replacing `M` in our phenotype file with `Male`. The gap between `'s/` and the second `/` is for our find phrase and the gap between the second `/` and `/g'` specifies the replace phrase. Be aware that special characters must be escaped (e.g. if we wanted to replace `/` in our file of interest, such as a file path we would add a `\` before the slash to 'escape' it). The output of this will just be posted to standard output meaning it is printed on our screen. We can also use `>` to direct the output to a new file.
+```
+sed 's/M/Male/g' sample_info.txt
+```
+
+Additionally, a common use of `sed` is to use the `-i` flag to specify that we will modify the file directly. While this is useful be careful because some find and replace actions are not simple to undo. For example, if we changed `M` to `F` by accident then there is no simple way to convert them back as there are original `F` entries that are now indistinguishable from our accidental `F`s.
+```
+sed -i 's/M/Male/g' sample_info.txt
+```
+
+But sed can also be used for other complex manipulations of files. For example pattern matching (as we will demonstrate with `grep` below). Here we extract all lines with `NR_` in them
+```
+sed -n '/NR_/p' sample_info.txt
+```
+
+We can also delete lines with a specific motif 
+```
+sed '/BL_/d' sample_info.txt
+```
+
+As with AWK we can extract a range of lines - such as 2-4
+```
+sed -n '2,4p' sample_info.txt
+```
+
+
+
+
+
+
+
+
 
 
 
