@@ -3,7 +3,7 @@ Undergraduate Coding Club - Kelley Lab 2024
 Week 4
 ================
 
-This week we will be 
+This week we will cover use cases for three extremely useful tools for bioinformatics analyses: `AWK`, `sed`, and `grep` which we have touched on in previous weeks. These are usually used as part of analyses pipelines to parse (scan through), manipulate, and extract information from text files. The objective for this workshop is to understand the use cases for these different tools and to have some syntax examples to refer back to.
 
 ## Data Files
 
