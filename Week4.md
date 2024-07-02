@@ -91,6 +91,8 @@ Finally, we can do a kind of find and replace, simlar to that we will cover with
 awk '{$5 = ($5 == "Blue" ? "Green" : $5)} 1' sample_info.txt
 ```
 
+<br/>  
+
 ## Part 2: sed
 
 sed, which stands for "stream editor", is a programming language that we mostly use to processing (also known as parsing) and transforming text.
