@@ -122,8 +122,43 @@ As with AWK we can extract a range of lines - such as 2-4
 sed -n '2,4p' sample_info.txt
 ```
 
+<br/>  
 
+## Part 3: grep
 
+grep is a command-line tool we typically use for searching lines that match some pattern in text files. 
+
+We can use it to extract rows with some given motif, for example `'NR_'`
+```
+grep 'NR_' sample_info.txt
+```
+
+Similarly to using `wc -l` we can use grep directly to count instances of a pattern. For example counting occurrances of lines congaining letter F in our file
+```
+grep -c 'F' sample_info.txt
+```
+
+We can also do more advanced things with grep. Say we want to search for exact matches - this might be especially important when looking through 1000s of genes. There may be a gene called `gene1` but there may also be `gene11`, `gene111`, and `gene1111` and so on. To extract the exact match we can use grep with the `-w` or 'word' flag.
+```
+grep -w 'BL_101' sample_info.txt
+```
+
+grep can also be used to exclude certain motifs. If we want to exclude lines with `Blue` we can run this
+```
+grep -v 'Blue' sample_info.txt
+```
+
+We can search for motifs at the beginning of a line specifically using the `^` character called 'caret'
+```
+grep '^BL_' sample_info.txt
+```
+
+Say we want to return not the lines themselves but the number of the line we can use the `-n` flag
+```
+grep -n 'NR_' sample_info.txt
+```
+
+We can also return lines before or after our line of interest using `-A` and `-B` but I'll let you explore that in yor own time
 
 
 
