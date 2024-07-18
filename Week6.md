@@ -24,10 +24,13 @@ At this point you have likely submitted a single-file job for something like Fas
 #this line loads the modules
 module load fastqc/0.12.1
 
-#this line runs fastqc on one thread (-t 1) outputs the resulting .html file to a specific directory (-o /hb/home/rdekayne/PmexWGS160/01_QC/fastqc_reports/)
+#this line runs fastqc on one thread (-t 1) outputs the resulting .html
+#file to a specific directory (-o /hb/home/rdekayne/PmexWGS160/01_QC/fastqc_reports/)
 fastqc -t 1 -o /hb/home/USER/fastqc_reports/ /hb/groups/BLAH/INDIV1_R1_001.fastq.gz
 
-#and then 'touches' this file so we know the script has been run through (NOTE: this file will be made even if the job fails and is only an indication that the job no longer sits in the queue or is currently being run)
+#and then 'touches' this file so we know the script has been run through
+#(NOTE: this file will be made even if the job fails and is only an indication
+#that the job no longer sits in the queue or is currently being run)
 touch INDIV1_R1_001.fastq.gz.done
 ```
 
@@ -50,8 +53,14 @@ This approach, rather than running a single file, will run through a list of ind
 #this line loads the modules
 module load fastqc/0.12.1
 
-#this line takes our sample list and runs through them in a loop - the bit between DO and DONE is the bit being looped. Sample name can be specified in the rest of the script using ${sample}
-#Since fastqc needs to be run on the R1 and R2 file for each individual here we can run both, one after another for each sample ID (stored as ${sample})
+#this line takes our sample list and runs/reads through it line by line in a loop
+#the bit between DO and DONE is the bit being looped.
+
+#Sample name can be specified in the rest of the script using ${sample}
+
+#Since fastqc needs to be run on the R1 and R2 file for each individual here we can run both
+#one after another for each sample ID (stored as ${sample})
+
 cat sample_list.txt | while read sample
 do
 fastqc -t 1 -o /hb/home/USER/fastqc_reports/ /hb/groups/BLAH/${sample}_R1_001.fastq.gz
