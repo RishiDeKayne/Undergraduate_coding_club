@@ -65,4 +65,9 @@ touch /hb/home/rdekayne/PmexWGS160/06_PCA/160_pca.done
 
 This script moves into my PCA directory using `cd`. Then I run PLINK specifying my VCF file (`--vcf`). Since PLINK is made for human chromosomes I tell PLINK to `--allow-extra-chr` so that it is not expecting only human named chromosomes and I specify the fomat in which I want my variant IDs i.e. how SNPs are coded in my output `--set-missing-var-ids @:#`. `--make-bed` means there will be a `.bed` file as output which I often use for other downstream applications and finally the most important part - `--pca` produces our PCA files. We also specify a prefix with PLINK which will be placed before all output files and we do that with `--out`. Look at the [PLINK manual](https://www.cog-genomics.org/plink/) to learn more about the 100s of things PLINK can do.  
 
-Our key PLINK output files are: 
+Our key PLINK output files are:  
+- `160_unfilt_out.eigenval` which contains the 
+
+
+A fantastic resource written by friends and former colleagues of mine Mark Ravinet and Joana Meier contains example scripts and explanations for a bunch of adaptation and speciation genomics analyses. It can be found [HERE](https://speciationgenomics.github.io/pca/) - I have linked to the PCA page which you'll notice is very similar to my R script but take some time to check out the other information there - this is a super valuable resource and I still find myself coming back to this we page frequently!
+
