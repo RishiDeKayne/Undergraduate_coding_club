@@ -5,6 +5,8 @@ Week 10
 
 This week we will be discucssing principal component analysis (PCA) as a method to better understanding genomic similarities and differences between individuals. The data will be real data from my project carrying out sequencing on 160 _Poecilia mexicana_.
 
+![pca](images/pca.png) 
+
 ## Preparation Steps  
 
 Before producing and plotting our PCA and learning to modify differnet aspects of our plots we need to actually produce the data that goes into the PCA. Although you will not be running this (I have pre-prepared the files needed for the tutorial) I have put some example scripts below so you can get a feel for what this entails.  
