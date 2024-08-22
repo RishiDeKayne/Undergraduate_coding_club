@@ -1,0 +1,161 @@
+﻿onetosixteen,pop,indiv_numb,Vol Category,Conc,ID number,Sample ID,Site ID,Site Name,Drainage,Sulfur/Fresh,"Sex (0=F, 1=M)",Sex,SL,Mass,colour,shape
+1,Pich1 S,124,vgood,13.51,124,MX13-124,MT13-05,Banos (hotel),Pichucalco,Sulfur,1,M,28,0.42,#DECF3F,21
+2,Pich1 S,125,vgood,18.93,125,MX13-125,MT13-05,Banos (hotel),Pichucalco,Sulfur,1,M,30,0.51,#DECF3F,21
+3,Pich1 S,128,vgood,15.4,128,MX13-128,MT13-05,Banos (hotel),Pichucalco,Sulfur,1,M,28,0.55,#DECF3F,21
+4,Pich1 S,131,vgood,18.89,131,MX13-131,MT13-05,Banos (hotel),Pichucalco,Sulfur,0,F,25,0.31,#DECF3F,21
+5,Pich1 S,132,vgood,28.71,132,MX13-132,MT13-05,Banos (hotel),Pichucalco,Sulfur,0,F,29,0.58,#DECF3F,21
+6,Pich1 S,135,vgood,14.34,135,MX13-135,MT13-05,Banos (hotel),Pichucalco,Sulfur,1,M,25,0.36,#DECF3F,21
+7,Pich1 S,137,vgood,17.55,137,MX13-137,MT13-05,Banos (hotel),Pichucalco,Sulfur,0,F,26,0.39,#DECF3F,21
+8,Pich1 S,138,vgood,22.58,138,MX13-138,MT13-05,Banos (hotel),Pichucalco,Sulfur,0,F,20,0.65,#DECF3F,21
+9,Pich1 S,139,vgood,20.98,139,MX13-139,MT13-05,Banos (hotel),Pichucalco,Sulfur,0,F,38,1.27,#DECF3F,21
+10,Pich1 S,140,vgood,15.22,140,MX13-140,MT13-05,Banos (hotel),Pichucalco,Sulfur,0,F,32,0.71,#DECF3F,21
+11,Pich1 S,142,vgood,41.53,142,MX13-142,MT13-05,Banos (hotel),Pichucalco,Sulfur,0,F,35,0.92,#DECF3F,21
+12,Pich1 S,144,vgood,19.21,144,MX13-144,MT13-05,Banos (hotel),Pichucalco,Sulfur,1,M,26,0.42,#DECF3F,21
+13,Pich1 S,146,vgood,28.91,146,MX13-146,MT13-05,Banos (hotel),Pichucalco,Sulfur,0,F,28,0.35,#DECF3F,21
+14,Pich1 S,148,vgood,38.28,148,MX13-148,MT13-05,Banos (hotel),Pichucalco,Sulfur,1,M,28,0.42,#DECF3F,21
+15,Pich1 S,149,vgood,27.73,149,MX13-149,MT13-05,Banos (hotel),Pichucalco,Sulfur,1,M,26,0.36,#DECF3F,21
+16,Pich1 S,150,vgood,27.18,150,MX13-150,MT13-05,Banos (hotel),Pichucalco,Sulfur,1,M,27,0.38,#DECF3F,21
+1,Pich1 NS,31,good,18.29,31,MX13-031,MT13-02,Vet Station,Pichucalco,Fresh,0,F,41.5,1.87,#5DA5DA,21
+2,Pich1 NS,33,vgood,16.23,33,MX13-033,MT13-02,Vet Station,Pichucalco,Fresh,0,F,53,3.83,#5DA5DA,21
+3,Pich1 NS,35,vgood,22.29,35,MX13-035,MT13-02,Vet Station,Pichucalco,Fresh,1,M,54,4.04,#5DA5DA,21
+4,Pich1 NS,38,vgood,18.71,38,MX13-038,MT13-02,Vet Station,Pichucalco,Fresh,1,M,44,2.17,#5DA5DA,21
+5,Pich1 NS,42,vgood,21.17,42,MX13-042,MT13-02,Vet Station,Pichucalco,Fresh,0,F,43.5,2,#5DA5DA,21
+6,Pich1 NS,43,vgood,13.27,43,MX13-043,MT13-02,Vet Station,Pichucalco,Fresh,0,F,52,3.68,#5DA5DA,21
+7,Pich1 NS,44,vgood,37.55,44,MX13-044,MT13-02,Vet Station,Pichucalco,Fresh,0,F,42.5,2.31,#5DA5DA,21
+8,Pich1 NS,45,good,14.77,45,MX13-045,MT13-02,Vet Station,Pichucalco,Fresh,0,F,60,4.99,#5DA5DA,21
+9,Pich1 NS,46,good,23.93,46,MX13-046,MT13-02,Vet Station,Pichucalco,Fresh,0,F,45,2.37,#5DA5DA,21
+10,Pich1 NS,47,vgood,19.02,47,MX13-047,MT13-02,Vet Station,Pichucalco,Fresh,1,M,45.5,2.15,#5DA5DA,21
+11,Pich1 NS,48,vgood,10.69,48,MX13-048,MT13-02,Vet Station,Pichucalco,Fresh,0,F,71,8.79,#5DA5DA,21
+12,Pich1 NS,52,good,23.79,52,MX13-052,MT13-02,Vet Station,Pichucalco,Fresh,1,M,34,0.97,#5DA5DA,21
+13,Pich1 NS,53,vgood,14.75,53,MX13-053,MT13-02,Vet Station,Pichucalco,Fresh,1,M,32.5,0.83,#5DA5DA,21
+14,Pich1 NS,54,good,19.64,54,MX13-054,MT13-02,Vet Station,Pichucalco,Fresh,0,F,59,4.81,#5DA5DA,21
+15,Pich1 NS,55,good,23.35,55,MX13-055,MT13-02,Vet Station,Pichucalco,Fresh,0,F,43,2.15,#5DA5DA,21
+16,Pich1 NS,58,vgood,23.83,58,MX13-058,MT13-02,Vet Station,Pichucalco,Fresh,1,M,52.5,3.08,#5DA5DA,21
+1,Pich2 S,93,vgood,24.49,93,MX13-093,MT13-04,La Gloria,Pichucalco,Sulfur,1,M,29.5,0.53,#DECF3F,21
+2,Pich2 S,96,good,23.74,96,MX13-096,MT13-04,La Gloria,Pichucalco,Sulfur,0,F,27,0.35,#DECF3F,21
+3,Pich2 S,97,good,25.9,97,MX13-097,MT13-04,La Gloria,Pichucalco,Sulfur,0,F,28,0.43,#DECF3F,21
+4,Pich2 S,101,vgood,11.46,101,MX13-101,MT13-04,La Gloria,Pichucalco,Sulfur,1,M,27,0.38,#DECF3F,21
+5,Pich2 S,102,vgood,14.42,102,MX13-102,MT13-04,La Gloria,Pichucalco,Sulfur,1,M,25,0.25,#DECF3F,21
+6,Pich2 S,104,good,28.72,104,MX13-104,MT13-04,La Gloria,Pichucalco,Sulfur,0,F,30.5,0.61,#DECF3F,21
+7,Pich2 S,105,vgood,35.3,105,MX13-105,MT13-04,La Gloria,Pichucalco,Sulfur,0,F,32,0.71,#DECF3F,21
+8,Pich2 S,108,vgood,16.82,108,MX13-108,MT13-04,La Gloria,Pichucalco,Sulfur,0,F,31,0.57,#DECF3F,21
+9,Pich2 S,110,vgood,30.29,110,MX13-110,MT13-04,La Gloria,Pichucalco,Sulfur,0,F,31.5,0.79,#DECF3F,21
+10,Pich2 S,113,vgood,11.71,113,MX13-113,MT13-04,La Gloria,Pichucalco,Sulfur,1,M,27.5,0.4,#DECF3F,21
+11,Pich2 S,115,vgood,16.44,115,MX13-115,MT13-04,La Gloria,Pichucalco,Sulfur,1,M,24.5,0.31,#DECF3F,21
+12,Pich2 S,116,vgood,26.09,116,MX13-116,MT13-04,La Gloria,Pichucalco,Sulfur,0,F,30.5,0.5,#DECF3F,21
+13,Pich2 S,117,vgood,33.43,117,MX13-117,MT13-04,La Gloria,Pichucalco,Sulfur,1,M,29.5,0.54,#DECF3F,21
+14,Pich2 S,118,vgood,15.53,118,MX13-118,MT13-04,La Gloria,Pichucalco,Sulfur,1,M,24.5,0.24,#DECF3F,21
+15,Pich2 S,119,vgood,21,119,MX13-119,MT13-04,La Gloria,Pichucalco,Sulfur,1,M,25.5,0.36,#DECF3F,21
+16,Pich2 S,120,vgood,22.27,120,MX13-120,MT13-04,La Gloria,Pichucalco,Sulfur,0,F,28.5,0.51,#DECF3F,21
+1,Pich2 NS,1,good,13.12,1,MX13-001,MT13-01,Rosita,Pichucalco,Fresh,0,F,45,2.52,#5DA5DA,21
+2,Pich2 NS,3,good,14.5,3,MX13-003,MT13-01,Rosita,Pichucalco,Fresh,0,F,56,4.47,#5DA5DA,21
+3,Pich2 NS,4,good,14.86,4,MX13-004,MT13-01,Rosita,Pichucalco,Fresh,0,F,45,2.43,#5DA5DA,21
+4,Pich2 NS,5,vgood,16.85,5,MX13-005,MT13-01,Rosita,Pichucalco,Fresh,1,M,40,1.68,#5DA5DA,21
+5,Pich2 NS,6,good,11.97,6,MX13-006,MT13-01,Rosita,Pichucalco,Fresh,0,F,0.54,4.7,#5DA5DA,21
+6,Pich2 NS,7,vgood,9.408,7,MX13-007,MT13-01,Rosita,Pichucalco,Fresh,0,F,45,2.43,#5DA5DA,21
+7,Pich2 NS,15,vgood,23,15,MX13-015,MT13-01,Rosita,Pichucalco,Fresh,1,M,48,3.11,#5DA5DA,21
+8,Pich2 NS,16,vgood,13.91,16,MX13-016,MT13-01,Rosita,Pichucalco,Fresh,1,M,42,1.84,#5DA5DA,21
+9,Pich2 NS,17,vgood,15.79,17,MX13-017,MT13-01,Rosita,Pichucalco,Fresh,1,M,33,0.83,#5DA5DA,21
+10,Pich2 NS,18,good,13.05,18,MX13-018,MT13-01,Rosita,Pichucalco,Fresh,0,F,37,1.57,#5DA5DA,21
+11,Pich2 NS,19,vgood,12.59,19,MX13-019,MT13-01,Rosita,Pichucalco,Fresh,1,M,43,1.95,#5DA5DA,21
+12,Pich2 NS,20,vgood,30.74,20,MX13-020,MT13-01,Rosita,Pichucalco,Fresh,1,M,55,4.33,#5DA5DA,21
+13,Pich2 NS,21,good,22.4,21,MX13-021,MT13-01,Rosita,Pichucalco,Fresh,0,F,36,1.2,#5DA5DA,21
+14,Pich2 NS,24,good,24.6,24,MX13-024,MT13-01,Rosita,Pichucalco,Fresh,0,F,35,1.09,#5DA5DA,21
+15,Pich2 NS,26,good,10.59,26,MX13-026,MT13-01,Rosita,Pichucalco,Fresh,0,F,40,1.63,#5DA5DA,21
+16,Pich2 NS,29,good,11.84,29,MX13-029,MT13-01,Rosita,Pichucalco,Fresh,0,F,42,1.96,#5DA5DA,21
+1,Ixta S,241,good,21.96,241,MX13-241,MT13-11,La Esperanza (big spring),Ixtapangajoya,Sulfur,0,F,24,0.33,#DECF3F,23
+2,Ixta S,243,vgood,17.38,243,MX13-243,MT13-11,La Esperanza (big spring),Ixtapangajoya,Sulfur,1,M,22,0.3,#DECF3F,23
+3,Ixta S,245,good,35.29,245,MX13-245,MT13-11,La Esperanza (big spring),Ixtapangajoya,Sulfur,0,F,21,0.28,#DECF3F,23
+4,Ixta S,247,vgood,46.17,247,MX13-247,MT13-11,La Esperanza (big spring),Ixtapangajoya,Sulfur,0,F,22,0.27,#DECF3F,23
+5,Ixta S,248,good,31.8,248,MX13-248,MT13-11,La Esperanza (big spring),Ixtapangajoya,Sulfur,1,M,18,0.16,#DECF3F,23
+6,Ixta S,249,vgood,22.18,249,MX13-249,MT13-11,La Esperanza (big spring),Ixtapangajoya,Sulfur,1,M,20,0.21,#DECF3F,23
+7,Ixta S,251,vgood,33.56,251,MX13-251,MT13-11,La Esperanza (big spring),Ixtapangajoya,Sulfur,0,F,19,0.2,#DECF3F,23
+8,Ixta S,255,vgood,25.47,255,MX13-255,MT13-11,La Esperanza (big spring),Ixtapangajoya,Sulfur,1,M,17,0.12,#DECF3F,23
+9,Ixta S,256,vgood,33.36,256,MX13-256,MT13-11,La Esperanza (big spring),Ixtapangajoya,Sulfur,1,M,18,0.17,#DECF3F,23
+10,Ixta S,262,vgood,37.89,262,MX13-262,MT13-11,La Esperanza (big spring),Ixtapangajoya,Sulfur,0,F,22,0.42,#DECF3F,23
+11,Ixta S,264,vgood,36.53,264,MX13-264,MT13-11,La Esperanza (big spring),Ixtapangajoya,Sulfur,1,M,19,0.15,#DECF3F,23
+12,Ixta S,265,vgood,24.72,265,MX13-265,MT13-11,La Esperanza (big spring),Ixtapangajoya,Sulfur,0,F,21,0.32,#DECF3F,23
+13,Ixta S,266,vgood,30.43,266,MX13-266,MT13-11,La Esperanza (big spring),Ixtapangajoya,Sulfur,0,F,18,0.16,#DECF3F,23
+14,Ixta S,267,vgood,30.76,267,MX13-267,MT13-11,La Esperanza (big spring),Ixtapangajoya,Sulfur,0,F,27,0.58,#DECF3F,23
+15,Ixta S,268,vgood,27.14,268,MX13-268,MT13-11,La Esperanza (big spring),Ixtapangajoya,Sulfur,0,F,22,0.3,#DECF3F,23
+16,Ixta S,270,vgood,34.16,270,MX13-270,MT13-11,La Esperanza (big spring),Ixtapangajoya,Sulfur,1,M,23,0.3,#DECF3F,23
+1,Ixta NS,61,good,26.72,61,MX13-061,MT13-03,Ixtapangajoya,Ixtapangajoya,Fresh,0,F,33,1.01,#5DA5DA,23
+2,Ixta NS,64,good,16.94,64,MX13-064,MT13-03,Ixtapangajoya,Ixtapangajoya,Fresh,0,F,41,1.82,#5DA5DA,23
+3,Ixta NS,65,vgood,10.76,65,MX13-065,MT13-03,Ixtapangajoya,Ixtapangajoya,Fresh,1,M,42,2.03,#5DA5DA,23
+4,Ixta NS,66,good,15.38,66,MX13-066,MT13-03,Ixtapangajoya,Ixtapangajoya,Fresh,0,F,39,1.72,#5DA5DA,23
+5,Ixta NS,68,good,26.44,68,MX13-068,MT13-03,Ixtapangajoya,Ixtapangajoya,Fresh,0,F,42,1.65,#5DA5DA,23
+6,Ixta NS,72,good,24.8,72,MX13-072,MT13-03,Ixtapangajoya,Ixtapangajoya,Fresh,0,F,34,0.97,#5DA5DA,23
+7,Ixta NS,74,good,13.23,74,MX13-074,MT13-03,Ixtapangajoya,Ixtapangajoya,Fresh,0,F,46,2.37,#5DA5DA,23
+8,Ixta NS,76,vgood,12.21,76,MX13-076,MT13-03,Ixtapangajoya,Ixtapangajoya,Fresh,1,M,36,1.43,#5DA5DA,23
+9,Ixta NS,77,vgood,18.42,77,MX13-077,MT13-03,Ixtapangajoya,Ixtapangajoya,Fresh,1,M,25,0.55,#5DA5DA,23
+10,Ixta NS,79,vgood,42.68,79,MX13-079,MT13-03,Ixtapangajoya,Ixtapangajoya,Fresh,1,M,43,2.46,#5DA5DA,23
+11,Ixta NS,81,vgood,16.75,81,MX13-081,MT13-03,Ixtapangajoya,Ixtapangajoya,Fresh,1,M,23,0.34,#5DA5DA,23
+12,Ixta NS,83,vgood,18.97,83,MX13-083,MT13-03,Ixtapangajoya,Ixtapangajoya,Fresh,1,M,40,1.59,#5DA5DA,23
+13,Ixta NS,86,good,16.68,86,MX13-086,MT13-03,Ixtapangajoya,Ixtapangajoya,Fresh,0,F,49,3.15,#5DA5DA,23
+14,Ixta NS,87,good,15.27,87,MX13-087,MT13-03,Ixtapangajoya,Ixtapangajoya,Fresh,0,F,40,1.56,#5DA5DA,23
+15,Ixta NS,88,vgood,44.81,88,MX13-088,MT13-03,Ixtapangajoya,Ixtapangajoya,Fresh,0,F,39,1.48,#5DA5DA,23
+16,Ixta NS,90,vgood,12.11,90,MX13-090,MT13-03,Ixtapangajoya,Ixtapangajoya,Fresh,0,F,35,1.05,#5DA5DA,23
+1,Puya S,152,vgood,17.59,152,MX13-152,MT13-08,La Lluvia (small spring),Puyacatengo,Sulfur,0,F,33,0.93,#DECF3F,24
+2,Puya S,153,vgood,41.12,153,MX13-153,MT13-08,La Lluvia (small spring),Puyacatengo,Sulfur,0,F,27,0.49,#DECF3F,24
+3,Puya S,155,good,15.93,155,MX13-155,MT13-08,La Lluvia (small spring),Puyacatengo,Sulfur,0,F,29,0.63,#DECF3F,24
+4,Puya S,157,vgood,31.76,157,MX13-157,MT13-08,La Lluvia (small spring),Puyacatengo,Sulfur,1,M,22,0.26,#DECF3F,24
+5,Puya S,158,vgood,16.83,158,MX13-158,MT13-08,La Lluvia (small spring),Puyacatengo,Sulfur,1,M,21,0.24,#DECF3F,24
+6,Puya S,159,vgood,24.99,159,MX13-159,MT13-08,La Lluvia (small spring),Puyacatengo,Sulfur,0,F,22,0.29,#DECF3F,24
+7,Puya S,160,vgood,13.37,160,MX13-160,MT13-08,La Lluvia (small spring),Puyacatengo,Sulfur,0,F,30,0.65,#DECF3F,24
+8,Puya S,162,vgood,21.32,162,MX13-162,MT13-08,La Lluvia (small spring),Puyacatengo,Sulfur,1,M,26,0.43,#DECF3F,24
+9,Puya S,163,vgood,21.39,163,MX13-163,MT13-08,La Lluvia (small spring),Puyacatengo,Sulfur,0,F,27,0.52,#DECF3F,24
+10,Puya S,164,good,17.1,164,MX13-164,MT13-08,La Lluvia (small spring),Puyacatengo,Sulfur,0,F,23,0.29,#DECF3F,24
+11,Puya S,165,vgood,14.64,165,MX13-165,MT13-08,La Lluvia (small spring),Puyacatengo,Sulfur,0,F,23,0.29,#DECF3F,24
+12,Puya S,170,vgood,25.05,170,MX13-170,MT13-08,La Lluvia (small spring),Puyacatengo,Sulfur,1,M,22,0.23,#DECF3F,24
+13,Puya S,172,vgood,13.12,172,MX13-172,MT13-08,La Lluvia (small spring),Puyacatengo,Sulfur,0,F,23,0.28,#DECF3F,24
+14,Puya S,174,vgood,27.96,174,MX13-174,MT13-08,La Lluvia (small spring),Puyacatengo,Sulfur,0,F,24,0.32,#DECF3F,24
+15,Puya S,176,vgood,26.32,176,MX13-176,MT13-08,La Lluvia (small spring),Puyacatengo,Sulfur,1,M,22,0.26,#DECF3F,24
+16,Puya S,178,vgood,14.46,178,MX13-178,MT13-08,La Lluvia (small spring),Puyacatengo,Sulfur,1,M,21,0.24,#DECF3F,24
+1,Puya NS,182,vgood,33.36,182,MX13-182,MT13-09,Puyacatengo (Vincente Guerrero),Puyacatengo,Fresh,1,M,33,0.84,#5DA5DA,24
+2,Puya NS,184,good,17.88,184,MX13-184,MT13-09,Puyacatengo (Vincente Guerrero),Puyacatengo,Fresh,0,F,33,0.88,#5DA5DA,24
+3,Puya NS,185,good,24.03,185,MX13-185,MT13-09,Puyacatengo (Vincente Guerrero),Puyacatengo,Fresh,0,F,37,1.35,#5DA5DA,24
+4,Puya NS,186,good,27.71,186,MX13-186,MT13-09,Puyacatengo (Vincente Guerrero),Puyacatengo,Fresh,0,F,30,0.63,#5DA5DA,24
+5,Puya NS,187,vgood,40.29,187,MX13-187,MT13-09,Puyacatengo (Vincente Guerrero),Puyacatengo,Fresh,1,M,37,1.35,#5DA5DA,24
+6,Puya NS,189,vgood,37.56,189,MX13-189,MT13-09,Puyacatengo (Vincente Guerrero),Puyacatengo,Fresh,1,M,36,0.99,#5DA5DA,24
+7,Puya NS,191,good,18.26,191,MX13-191,MT13-09,Puyacatengo (Vincente Guerrero),Puyacatengo,Fresh,0,F,33,1.33,#5DA5DA,24
+8,Puya NS,192,good,21.57,192,MX13-192,MT13-09,Puyacatengo (Vincente Guerrero),Puyacatengo,Fresh,0,F,42,1.79,#5DA5DA,24
+9,Puya NS,193,good,19.77,193,MX13-193,MT13-09,Puyacatengo (Vincente Guerrero),Puyacatengo,Fresh,0,F,34,1.09,#5DA5DA,24
+10,Puya NS,199,vgood,24.65,199,MX13-199,MT13-09,Puyacatengo (Vincente Guerrero),Puyacatengo,Fresh,1,M,30,0.64,#5DA5DA,24
+11,Puya NS,200,good,18.75,200,MX13-200,MT13-09,Puyacatengo (Vincente Guerrero),Puyacatengo,Fresh,0,F,34,0.97,#5DA5DA,24
+12,Puya NS,201,vgood,20.72,201,MX13-201,MT13-09,Puyacatengo (Vincente Guerrero),Puyacatengo,Fresh,1,M,33,0.71,#5DA5DA,24
+13,Puya NS,202,good,25.16,202,MX13-202,MT13-09,Puyacatengo (Vincente Guerrero),Puyacatengo,Fresh,0,F,33,0.9,#5DA5DA,24
+14,Puya NS,203,vgood,41.6,203,MX13-203,MT13-09,Puyacatengo (Vincente Guerrero),Puyacatengo,Fresh,0,F,32,0.71,#5DA5DA,24
+15,Puya NS,205,vgood,28.18,205,MX13-205,MT13-09,Puyacatengo (Vincente Guerrero),Puyacatengo,Fresh,0,F,30,0.73,#5DA5DA,24
+16,Puya NS,208,good,18.45,208,MX13-208,MT13-09,Puyacatengo (Vincente Guerrero),Puyacatengo,Fresh,0,F,31,0.8,#5DA5DA,24
+1,Taco S,272,vgood,17.14,272,MX13-272,,El Azufre I fish,Tacotalpa,Sulfur,1,M,,0.28,#DECF3F,22
+2,Taco S,273,good,12.24,273,MX13-273,,El Azufre I fish,Tacotalpa,Sulfur,0,F,,0.36,#DECF3F,22
+3,Taco S,274,vgood,22.09,274,MX13-274,,El Azufre I fish,Tacotalpa,Sulfur,1,M,,0.55,#DECF3F,22
+4,Taco S,276,good,14.98,276,MX13-276,,El Azufre I fish,Tacotalpa,Sulfur,0,F,,0.21,#DECF3F,22
+5,Taco S,279,vgood,43.61,279,MX13-279,,El Azufre I fish,Tacotalpa,Sulfur,1,M,,0.57,#DECF3F,22
+6,Taco S,280,vgood,15.57,280,MX13-280,,El Azufre I fish,Tacotalpa,Sulfur,0,F,,0.23,#DECF3F,22
+7,Taco S,281,vgood,16.91,281,MX13-281,,El Azufre I fish,Tacotalpa,Sulfur,0,F,,0.22,#DECF3F,22
+8,Taco S,282,good,12.12,282,MX13-282,,El Azufre I fish,Tacotalpa,Sulfur,0,F,,0.19,#DECF3F,22
+9,Taco S,284,good,15.01,284,MX13-284,,El Azufre I fish,Tacotalpa,Sulfur,0,F,,0.23,#DECF3F,22
+10,Taco S,287,good,11.48,287,MX13-287,,El Azufre I fish,Tacotalpa,Sulfur,0,F,,0.45,#DECF3F,22
+11,Taco S,289,vgood,11.11,289,MX13-289,,El Azufre I fish,Tacotalpa,Sulfur,0,F,,0.43,#DECF3F,22
+12,Taco S,291,vgood,13.34,291,MX13-291,,El Azufre I fish,Tacotalpa,Sulfur,0,F,,0.54,#DECF3F,22
+13,Taco S,292,vgood,17.24,292,MX13-292,,El Azufre I fish,Tacotalpa,Sulfur,0,F,,0.31,#DECF3F,22
+14,Taco S,296,vgood,18.87,296,MX13-296,,El Azufre I fish,Tacotalpa,Sulfur,0,F,,0.26,#DECF3F,22
+15,Taco S,298,vgood,24.06,298,MX13-298,,El Azufre I fish,Tacotalpa,Sulfur,0,F,,0.16,#DECF3F,22
+16,Taco S,300,vgood,16.29,300,MX13-300,,El Azufre I fish,Tacotalpa,Sulfur,0,F,,0.21,#DECF3F,22
+1,Taco NS,212,good,14.11,212,MX13-212,MT13-10,Bonita,Tacotalpa,Fresh,0,F,39,1.57,#5DA5DA,22
+2,Taco NS,213,good,20.32,213,MX13-213,MT13-10,Bonita,Tacotalpa,Fresh,0,F,45,2.42,#5DA5DA,22
+3,Taco NS,218,good,16.87,218,MX13-218,MT13-10,Bonita,Tacotalpa,Fresh,0,F,35,1.26,#5DA5DA,22
+4,Taco NS,219,vgood,13.74,219,MX13-219,MT13-10,Bonita,Tacotalpa,Fresh,1,M,43,1.84,#5DA5DA,22
+5,Taco NS,220,good,13.82,220,MX13-220,MT13-10,Bonita,Tacotalpa,Fresh,0,F,45,2.11,#5DA5DA,22
+6,Taco NS,223,good,28.16,223,MX13-223,MT13-10,Bonita,Tacotalpa,Fresh,0,F,35,1.18,#5DA5DA,22
+7,Taco NS,224,vgood,17.25,224,MX13-224,MT13-10,Bonita,Tacotalpa,Fresh,1,M,42,1.81,#5DA5DA,22
+8,Taco NS,226,vgood,14.5,226,MX13-226,MT13-10,Bonita,Tacotalpa,Fresh,1,M,29,0.59,#5DA5DA,22
+9,Taco NS,228,good,19.59,228,MX13-228,MT13-10,Bonita,Tacotalpa,Fresh,0,F,49,3.38,#5DA5DA,22
+10,Taco NS,229,good,23.54,229,MX13-229,MT13-10,Bonita,Tacotalpa,Fresh,0,F,41,1.85,#5DA5DA,22
+11,Taco NS,232,good,38.95,232,MX13-232,MT13-10,Bonita,Tacotalpa,Fresh,0,F,33,0.89,#5DA5DA,22
+12,Taco NS,233,good,13.7,233,MX13-233,MT13-10,Bonita,Tacotalpa,Fresh,0,F,33,0.95,#5DA5DA,22
+13,Taco NS,235,vgood,22.89,235,MX13-235,MT13-10,Bonita,Tacotalpa,Fresh,0,F,35,1.04,#5DA5DA,22
+14,Taco NS,237,good,14.32,237,MX13-237,MT13-10,Bonita,Tacotalpa,Fresh,0,F,33,0.93,#5DA5DA,22
+15,Taco NS,238,good,30.68,238,MX13-238,MT13-10,Bonita,Tacotalpa,Fresh,0,F,35,0.99,#5DA5DA,22
+16,Taco NS,239,vgood,31.25,239,MX13-239,MT13-10,Bonita,Tacotalpa,Fresh,0,F,31,0.73,#5DA5DA,22
