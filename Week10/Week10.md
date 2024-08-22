@@ -5,7 +5,7 @@ Week 10
 
 This week we will be discucssing principal component analysis (PCA) as a method to better understanding genomic similarities and differences between individuals. The data will be real data from my project carrying out sequencing on 160 _Poecilia mexicana_.
 
-![pca](images/pca.png) 
+![pca](../images/pca.png) 
 
 ## Preparation Steps  
 
