@@ -3,11 +3,11 @@ Undergraduate Coding Club - Kelley Lab 2024
 Week 10
 ================
 
-This week we will be discucssing principal component analysis (PCA) as a method to better understanding genomic similarities and differences between individuals. I will work through my PCA plotting script [script link]
+This week we will be discucssing principal component analysis (PCA) as a method to better understanding genomic similarities and differences between individuals. The data will be real data from my project carrying out sequencing on 160 _Poecilia mexicana_.
 
 ## Preparation Steps  
 
-Before plotting our PCA and better understanding how to modify differnet aspects of our plots we need to actually produce the data that goes into the PCA. Although you will not be running this (I have pre-prepared the files needed for the tutorial I have put some example scripts below so you can get a feel for what this entails.  
+Before producing and plotting our PCA and learning to modify differnet aspects of our plots we need to actually produce the data that goes into the PCA. Although you will not be running this (I have pre-prepared the files needed for the tutorial) I have put some example scripts below so you can get a feel for what this entails.  
 
 
 First we will take our raw concatenated VCF file, which contains high quality genotype calls from across the genome and filter out SNPs with missing data:  
@@ -66,8 +66,12 @@ touch /hb/home/rdekayne/PmexWGS160/06_PCA/160_pca.done
 This script moves into my PCA directory using `cd`. Then I run PLINK specifying my VCF file (`--vcf`). Since PLINK is made for human chromosomes I tell PLINK to `--allow-extra-chr` so that it is not expecting only human named chromosomes and I specify the fomat in which I want my variant IDs i.e. how SNPs are coded in my output `--set-missing-var-ids @:#`. `--make-bed` means there will be a `.bed` file as output which I often use for other downstream applications and finally the most important part - `--pca` produces our PCA files. We also specify a prefix with PLINK which will be placed before all output files and we do that with `--out`. Look at the [PLINK manual](https://www.cog-genomics.org/plink/) to learn more about the 100s of things PLINK can do.  
 
 Our key PLINK output files are:  
-- `160_unfilt_out.eigenval` which contains the 
+- `160_unfilt_out.eigenval` which contains the eigenvalues from our analysis (these will be converted later to % variance explained by each PC axis).
+- `160_unfilt_out.eigenvec` which contains the eigenvectors from our analysis (there are what we will use to actually plot where individuals sit in PC space relative to one another.
 
+I have also made a `.csv` file with background information on all 160 individuals which you can find [HERE](https://github.com/RishiDeKayne/Undergraduate_coding_club/blob/main/Week10/Samples_selected_background_shape_col.csv).  
+
+Now it's time to head to [the R script](). If you are following along after today's session you will need to download the R script along with the background, `.eigenvec`, and `.eigenval` files. Make a folder on your machine and place all of these files there. Open the R script using R studio and change the working directory e.g. with `setwd` to the directory that contains all of the important files. You will also probably need to update the filepath of the background info file. Also be mindful you may have to install and load some of the libraries I use in the tutorial before you are able to run through the script.  
 
 A fantastic resource written by friends and former colleagues of mine Mark Ravinet and Joana Meier contains example scripts and explanations for a bunch of adaptation and speciation genomics analyses. It can be found [HERE](https://speciationgenomics.github.io/pca/) - I have linked to the PCA page which you'll notice is very similar to my R script but take some time to check out the other information there - this is a super valuable resource and I still find myself coming back to this we page frequently!
 
