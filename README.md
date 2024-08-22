@@ -24,3 +24,10 @@ Undergraduate Coding Club - Kelley Lab 2024
 - Raw read QC
 - Read mapping
 - Genotyping and genotype filtering
+
+*Week9 - presentation* [Week9 Presentation](https://github.com/RishiDeKayne/Undergraduate_coding_club/blob/main/Week9/)
+- Genome Assembly
+
+*Week10 - workshop*
+- Plotting PCA [Week10 Notes](https://github.com/RishiDeKayne/Undergraduate_coding_club/blob/main/Week10/)
+- General workflow tips
