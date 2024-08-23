@@ -28,6 +28,8 @@ Undergraduate Coding Club - Kelley Lab 2024
 *Week6 - discussion* [Week6 Notes](https://github.com/RishiDeKayne/Undergraduate_coding_club/blob/main/Week6.md)
 - Submitting arrays of jobs to the cluster
 
+*Week7+8 - break/independent study*
+
 *Week9 - presentation* [Week9 Presentation](https://github.com/RishiDeKayne/Undergraduate_coding_club/blob/main/Week9/)
 - Genome Assembly
 
